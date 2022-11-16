@@ -1,0 +1,61 @@
+body{
+    --color: rgb(2, 192, 2);
+    margin: 0;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 400px;
+}
+
+
+#inputElement{
+    box-sizing: border-box;
+    width:  100% ;
+    border: solid var(--color) 1.5px;
+    padding: 10px 10px;
+
+}
+
+#inputElement:focus-visible{
+    outline: 0;
+
+}
+
+#saveButton, #saveTabButton{
+    margin-top: 5px;
+    border: solid var(--color) 1.5px;
+    color: white;
+    background-color: var(--color);
+    padding:10px 20px;
+    font-weight: bold;
+
+}
+
+#deleteButton{
+    margin-top: 5px;
+    border: solid var(--color) 1.5px;
+    color: var(--color);
+    background-color: white;
+    padding:10px 20px;
+    font-weight: bold;
+    
+}
+
+
+ul{
+    padding: 3px;
+    list-style: none;
+    margin-top: 20px;
+
+}
+
+ul li{
+    margin-top: 5px;
+}
+
+ul li a{
+    color: var(--color);
+
+
+}
+
+
